@@ -63,7 +63,7 @@ function App() {
       for (let j=0; j < arr.length; j++) {
         found = false;
        // 3 mathing chars
-       if(arr[j][i] == str.slice(i, i + 3)) {
+       if(arr[j][1] == str.slice(i, i + 3)) {
         msg = msg + arr[j][0]
         i +=2
         found = true;
@@ -71,7 +71,7 @@ function App() {
        }
 
        // 2 mathing chars
-       else if (arr[j][i] == str.slice(i, i+2)) {
+       else if (arr[j][1] == str.slice(i, i+2)) {
         msg = msg + arr[j][0]
         i +=1;
         found = true;
@@ -79,7 +79,7 @@ function App() {
        }
 
        // 1 mathing chars
-        else if (arr[j][i] == str.slice(i, i+1)) {
+        else if (arr[j][1] == str.slice(i, i+1)) {
         msg = msg + arr[j][0]
         found = true;
         break;
