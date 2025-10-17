@@ -20,7 +20,7 @@
 
 #main1>button{
   background-color: white;
-  color: black;
+  color: red;
   cursor: pointer;
   height: 40px;
   width: fit-content;
